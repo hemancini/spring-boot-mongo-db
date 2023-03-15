@@ -1,4 +1,14 @@
 ```bash
+k run -it --rm test-connection --image=gradle:6.4.1-jdk8 -- sh
+
+apt-get update
+apt-get install -y git vim
+git clone https://github.com/hemancini/spring-boot-mongo-db.git
+cd spring-boot-mongo-db
+vim src/main/resources/application.properties
+
+mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
+
 ./gradlew bootRun
 ```
 
