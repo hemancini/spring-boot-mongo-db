@@ -1,3 +1,7 @@
+```bash
+./gradlew bootRun
+```
+
 # Spring Boot REST API Using Spring Data MongoDB Tutorial
 
 <a href="https://javatodev.com/spring-boot-mongodb-crud-api/" target="blank">
